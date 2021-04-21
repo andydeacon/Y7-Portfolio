@@ -1,0 +1,469 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: #71737B;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #FB7161;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  font-weight: 900;
+}
+h2 {
+  font-weight: 900;
+  line-height: 2.5rem;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: orange;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0 0 50px 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
+/* global css settings */
+.btn-primary {
+  background-color: #FB7161 !important;
+  border: solid 1px #FB7161;
+  border-radius: 5px;
+}
+
+.fa-arrow-up {
+  color: #FB7161;
+}
+
+.percentages {
+  margin-top: 50px;
+}
+
+
+/* Title Section */
+
+#title {
+  margin: auto;
+}
+
+.hero-black {
+  background-color: black;
+  height: 915px;
+  border-radius: 0 0 50px 0;
+  padding: 2% 5% 5% 5%;
+  margin-left: 0;
+
+}
+
+.logo {
+  width: 70px;
+}
+
+.hero-title {
+  padding: 10% 20% 1% 5%;
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.hero-description {
+  color: white;
+  padding: 0 20% 0 5%;
+  font-size: 1.2rem;
+}
+
+.telephone {
+  padding: 40px 25%;
+  font-size: 1.2rem;
+
+}
+
+.hero-img {
+  padding: 10px 20px 30px 0;
+  position: absolute;
+  width: 800px;
+  top: 100px;
+  left: 55%;
+  /* left: -150px;
+  top: 20px; */
+}
+
+.icon-white {
+  padding: 40px 0 0 5%;
+  color: white;
+  font-size: 4rem;
+}
+
+.icon-white:hover {
+  color: #FB7161;
+}
+
+/* Delivering Results section */
+
+#results {
+  margin: 200px auto 0;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.results-container {
+  width: 40%;
+  line-height: 2rem;
+}
+
+/* Selling Points section */
+
+#selling {
+  padding: 7% 10%;
+  margin: 20px auto 0;
+  position: relative;
+
+}
+
+.selling-background {
+  background-color: #F5F5FF;
+  position: relative;
+  bottom: 120px;
+  z-index: -2;
+
+}
+.sb-number {
+  font-size: 7rem;
+  position: absolute;
+  top: -40px;
+  left: 5px;
+  color: #F5F5FF;
+  z-index: 0;
+  font-weight: 900;
+}
+
+.selling-text-container {
+  z-index: 1;
+  position: relative;
+}
+
+.selling-heading {
+  font-weight: bold;
+  color: black;
+}
+#selling-point-container1 {
+  border: none;
+  padding-top: 2%;
+  box-shadow: 5px 5px 5px #f0f0f0;
+  background-color: #FB7161;
+  position: relative;
+  z-index: 0;
+}
+
+#selling-point-container1:hover {
+  background-color: #fed0ca;
+}
+
+#selling-point-container2 {
+  border: none;
+  padding-top: 2%;
+  box-shadow: 5px 5px 5px #f0f0f0;
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+#selling-point-container2:hover {
+  background-color: #fed0ca;
+}
+
+#selling-point-container3 {
+  border: none;
+  padding-top: 2%;
+  box-shadow: 5px 5px 5px #f0f0f0;
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+ #selling-point-container3:hover {
+  background-color: #fed0ca;
+}
+
+.review-content-container {
+  padding: 160px 20px;
+}
+
+.giant-quotes {
+  font-weight:900;
+  font-size: 5rem;
+  line-height: 0.5;
+  text-align: center;
+  color: #71737B;
+}
+#quotetext {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 0.1;
+
+}
+
+#authorimg, #author, #position {
+ /* display: block;
+ margin: auto; */
+ line-height: 0.4;
+}
+
+#position {
+  color: #FB7161;
+  font-size: 0.9rem;
+}
+
+#authorimg {
+  padding-bottom: 20px;
+}
+
+.author-info {
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+/* The Pod section */
+
+#pod {
+  margin: 100px auto;
+}
+
+.pod-background {
+  height: 380px;
+  background-color: #FEBE2B;
+}
+
+.pod-container {
+
+}
+
+.img-container {
+  position: relative;
+}
+
+.profile-img {
+  position: absolute;
+  right: 10%;
+  bottom: -450px;
+  max-width: 50%;
+
+}
+
+.wall-img {
+  position: absolute;
+  right: 40%;
+  bottom: -400px;
+  max-width: 50%;
+
+}
+
+.onboarding-img {
+  position: absolute;
+  right: 25%;
+  bottom: -500px;
+  max-width: 55%;
+
+}
+
+/* Devon carers section */
+
+#devon {
+  margin: 250px auto auto auto;
+}
+
+.gradient-rectangle {
+  width:100%;
+  height: 500px;
+  margin-left: 0;
+  position: relative;
+}
+
+.devon-img {
+  position: absolute;
+  max-width: 600px;
+  top: -30%;
+  right: 20%;
+}
+
+/* Expertise section */
+
+#expertise {
+  margin-top: 250px;
+}
+
+/* strategy section */
+
+#strategy {
+  margin: 9%;
+  color: white;
+  position: relative;
+}
+
+#strategy h3 {
+  color: white;
+}
+
+#strategy p {
+  color: white;
+}
+
+.strategy-container {
+  background-color: #FB7161;
+  padding: 30px;
+
+}
+
+.contact-details {
+  font-size: 1.5rem;
+  padding-top: 20%;
+}
+
+.brief-contact {
+  padding-top: 60px;
+  font-size: 1.5rem;
+}
+
+/* about us section */
+
+.computer-img {
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  bottom: 30px;
+}
+
+/* Footer section */
+
+#footer {
+
+}
+
+.footer-grey-bg {
+  position: relative;
+  margin-top: 100px;
+  background-color: #F5F5FF;
+}
+
+.footer-black-bg {
+  position: relative;
+  height: 500px;
+  margin: auto 0 0 0;
+  background-color: #000;
+  border-radius: 0 100px 0 0;
+}
+
+.footer-container {
+  padding-top: 100px;
+  line-height: 0.6rem;
+}
+
+.footer-logo {
+  padding: 50px 30%;
+}
+
+.address {
+  font-weight: bold;
+  padding: 20px 30%;
+  color: white;
+}
+
+.address p {
+  color: white;
+}
+
+.news-container {
+  padding: 15%;
+}
+
+.emailfield {
+  border: none;
+  border-bottom: 2px solid #fb7161;
+  width: 300px;
+  font-size: 1.5rem;
+  color: grey;
+  background-color: inherit;
+  outline: none;
+}
+
+.submit-btn {
+  color: #FB7161;
+  font-size: 2rem;
+}
+
+/* change class attributes according to screensize to enable a more responsive experience */
+@media (max-width: 993px) {
+  body {
+    text-align: center;
+  }
+
+/* center Align text in hero section for greater readability on mobile devices */
+  .hero-img {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 0 50px 0 0;
+  }
+  .hero-title, .hero-description, .icon-white {
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+  }
+/* adjust Selling point section */
+  .selling-point-container {
+    margin: 20px auto;
+  }
+
+/* adjust pod section */
+  .pod-background {
+    margin-top: 200px;
+  }
+  .pod-container {
+    margin-left: 0;
+  }
+/* adjust devon case study section */
+  .devon-text {
+    margin-top: 100px;
+  }
+
+.brief-details {
+  position: relative;
+}
+
+/* adjust black background on footer to be full width on mobile */
+.footer-black-bg {
+  width: 100%;
+}
+.footer-grey-bg {
+  margin-top:0;
+}
+.news-container {
+  padding: 50px;
+}
+}
