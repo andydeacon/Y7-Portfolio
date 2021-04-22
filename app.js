@@ -4,21 +4,21 @@
 const reviews = [
   {
       id: 1,
-      quote: "Y&7’s research and user testing helped us identify key user pain points and in an extremely short time-to-market and launch a highly competitive offering.",
+      quote: "Y&7’s research and user testing helped us identify key user pain points and in an extremely short time-to-market and launch a highly competitive offering",
       author: "Marcus Richards",
       position: "Project Manager, Charity X",
       img: "./images/MarcusRichards.png"
   },
   {
       id: 2,
-      quote: "I cannot thank Y&7 enough for their expertise, they consistently deliver on their promises and have enabled our startup to thrive in an uncertain market.",
+      quote: "I cannot thank Y&7 enough for their expertise, they consistently deliver on their promises and have enabled our startup to thrive in an uncertain market",
       author: "Lenny Hendridge",
       position: "CEO, My New Charity PLC",
       img: "./images/LennyHendridge.png"
   },
   {
       id: 3,
-      quote: "Y&7 worked on a campaign to recruit an army of good to help the needy in the face of an evil adversary.  Well done, you shall pass...",
+      quote: "Y&7 worked on a campaign to recruit an army of good to help the needy in the face of an evil adversary.  Well done, you shall pass",
       author: "Gandalf the grey",
       position: "Keeper of the Good",
       img: "./images/Gandalf.png"
@@ -94,7 +94,12 @@ btn3.addEventListener("click", function() {
 
 const btnSubmit = document.querySelector(".submit-btn");
 const emailAddress = document.querySelector(".email-address");
+console.log(emailAddress);
 
 btnSubmit.addEventListener("click", function() {
+  if (emailAddress.value.length<1) {
+  alert("please enter a valid email address");
+} else {
   alert("An invitation email has been sent to " + emailAddress.value + ".  Follow the instructions on the email to confirm your subscription to our newletter.");
+}
 });
