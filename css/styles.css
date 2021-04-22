@@ -40,6 +40,7 @@ h5 {
 
 
 /* global css settings */
+
 .btn-primary {
   background-color: #FB7161 !important;
   border: solid 1px #FB7161;
@@ -162,6 +163,7 @@ h5 {
   font-weight: bold;
   color: black;
 }
+
 #selling-point-container1 {
   border: none;
   padding-top: 2%;
@@ -169,10 +171,6 @@ h5 {
   background-color: #FB7161;
   position: relative;
   z-index: 0;
-}
-
-#selling-point-container1:hover {
-  background-color: #fed0ca;
 }
 
 #selling-point-container2 {
@@ -184,10 +182,6 @@ h5 {
   z-index: 0;
 }
 
-#selling-point-container2:hover {
-  background-color: #fed0ca;
-}
-
 #selling-point-container3 {
   border: none;
   padding-top: 2%;
@@ -197,7 +191,7 @@ h5 {
   z-index: 0;
 }
 
- #selling-point-container3:hover {
+#selling-point-container1:hover, #selling-point-container2:hover, #selling-point-container3:hover {
   background-color: #fed0ca;
 }
 
@@ -225,8 +219,6 @@ h5 {
 }
 
 #authorimg, #author, #position {
- /* display: block;
- margin: auto; */
  line-height: 0.4;
 }
 
@@ -255,10 +247,6 @@ h5 {
 .pod-background {
   height: 380px;
   background-color: #FEBE2B;
-}
-
-.pod-container {
-
 }
 
 .img-container {
@@ -399,7 +387,7 @@ h5 {
   padding: 15%;
 }
 
-.emailfield {
+.email-address {
   border: none;
   border-bottom: 2px solid #fb7161;
   width: 300px;
